@@ -19,7 +19,7 @@ const grandtotalPriceDisplay = document.getElementById('grand-total-price');
 const availableSeatsDisplay = document.getElementById('available-seats');
 const selectedSeatClassDisplay = document.getElementById('selected-seat-class');
 
-let availableSeats = 24;
+let availableSeats = 40;
 let selectedSeats = [];
 function generateBusLayout() {
     let busHTML = '';
